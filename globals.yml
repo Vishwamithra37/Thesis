@@ -148,7 +148,7 @@ neutron_external_interface: "ens4"
 # The variable "neutron_enable_rolling_upgrade: yes" is meaning rolling_upgrade
 # were enabled and opposite
 # Neutron rolling upgrade were enable by default
-#neutron_enable_rolling_upgrade: "yes"
+# neutron_enable_rolling_upgrade: "yes"
 
 
 ####################
@@ -188,7 +188,7 @@ neutron_external_interface: "ens4"
 #enable_container_healthchecks: "yes"
 # Healthcheck options for Docker containers
 # interval/timeout/start_period are in seconds
-#default_container_healthcheck_interval: 30
+# default_container_healthcheck_interval: 30
 #default_container_healthcheck_timeout: 30
 #default_container_healthcheck_retries: 3
 #default_container_healthcheck_start_period: 5
@@ -404,7 +404,7 @@ enable_haproxy: "no"
 # MariaDB options
 #################
 # List of additional WSREP options
-#mariadb_wsrep_extra_provider_options: []
+mariadb_wsrep_extra_provider_options: []
 
 #######################
 # External Ceph options
